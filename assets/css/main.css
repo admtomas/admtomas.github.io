@@ -1,4 +1,4 @@
-@import url(c:\Users\Sir Tomas\Google Drive\PORTFOLIO UWE N REST\admtomas.github.io\assets\sass\fontawesome-all.min.css);
+@import url(c:\Users\admto\Google Drive\PORTFOLIO UWE N REST\admtomas.github.io\assets\sass\fontawesome-all.min.css);
 @import url(fontawesome-all.min.css);
 /*
 	Code tested by admtomas
@@ -299,8 +299,8 @@ h1.major {
 }
 
 h1.major:after {
-  background-image: -webkit-gradient(linear, left top, right top, from(#5e42a6), to(#b74e91));
-  background-image: linear-gradient(to right, #5e42a6, #b74e91);
+  background-image: -webkit-gradient(linear, left top, right top, from(#5e42a6), to(#8c0d35));
+  background-image: linear-gradient(to right, #5e42a6, #8c0d35);
   -webkit-transition: max-width 0.2s ease;
   transition: max-width 0.2s ease;
   border-radius: 0.2em;
@@ -2293,7 +2293,7 @@ input[type="checkbox"]:checked + label:before,
 input[type="radio"]:checked + label:before {
   background: #ffffff;
   border-color: #ffffff;
-  color: #b74e91;
+  color: #8c0d35;
   content: '\f00c';
 }
 
@@ -2401,11 +2401,11 @@ input[type="radio"] + label:before {
 }
 
 .wrapper.style3 .icon.major:before {
-  color: #b74e91;
+  color: #8c0d35;
 }
 
 .wrapper.style3-alt .icon.major:before {
-  color: #953d75;
+  color: #5d0923;
 }
 
 /* Image */
@@ -3060,11 +3060,11 @@ table.alt tfoot {
 }
 
 .wrapper.style3 {
-  background-color: #b74e91;
+  background-color: #8c0d35;
 }
 
 .wrapper.style3-alt {
-  background-color: #953d75;
+  background-color: #5d0923;
 }
 
 .wrapper.fullscreen {
@@ -3495,8 +3495,8 @@ body.is-ie #sidebar > .inner {
 }
 
 #sidebar nav a:after {
-  background-image: -webkit-gradient(linear, left top, right top, from(#5e42a6), to(#b74e91));
-  background-image: linear-gradient(to right, #5e42a6, #b74e91);
+  background-image: -webkit-gradient(linear, left top, right top, from(#5e42a6), to(#8c0d35));
+  background-image: linear-gradient(to right, #5e42a6, #8c0d35);
   -webkit-transition: max-width 0.2s ease;
   transition: max-width 0.2s ease;
   max-width: 0;
@@ -3577,7 +3577,7 @@ body.is-preload #sidebar nav ul li {
   }
   #sidebar nav a:after {
     background-image: none;
-    background-color: #b74e91;
+    background-color: #8c0d35;
   }
 }
 
