@@ -2644,6 +2644,11 @@ ul.actions.fit.stacked {
   }
 }
 
+#toggled,
+#hide {
+  display: none;
+}
+
 /* Contact */
 ul.contact {
   list-style: none;
