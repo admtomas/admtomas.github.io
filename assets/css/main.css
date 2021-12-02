@@ -2142,7 +2142,12 @@ form > .fields > .field.quarter {
 }
 
 .map {
+  padding: 1.5em 0 0 1.5em;
   margin: auto;
+}
+
+.map iframe {
+  border: solid 3px rgba(255, 255, 255, 0.15);
 }
 
 label {
