@@ -2424,6 +2424,11 @@ input[type="radio"] :-ms-input-placeholder {
 }
 
 /* Image */
+.nolink {
+  cursor: default;
+  pointer-events: none;
+}
+
 .image {
   border-radius: 0.25em;
   border: 0;
@@ -2644,8 +2649,18 @@ ul.actions.fit.stacked {
   }
 }
 
-#toggled,
-#hide {
+#toggled-one,
+#hide-one {
+  display: none;
+}
+
+#toggled-two,
+#hide-two {
+  display: none;
+}
+
+#toggled-three,
+#hide-three {
   display: none;
 }
 
