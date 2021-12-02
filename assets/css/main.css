@@ -1,4 +1,4 @@
-@import url(c:\Users\admto\Google Drive\PORTFOLIO UWE N REST\admtomas.github.io\assets\sass\fontawesome-all.min.css);
+@import url(c:\Users\Sir Tomas\Google Drive\PORTFOLIO UWE N REST\admtomas.github.io\assets\sass\fontawesome-all.min.css);
 @import url(fontawesome-all.min.css);
 /*
 	Code tested by admtomas
@@ -2141,6 +2141,10 @@ form > .fields > .field.quarter {
   }
 }
 
+.map {
+  margin: auto;
+}
+
 label {
   color: #ffffff;
   font-weight: bold;
@@ -2304,30 +2308,36 @@ input[type="radio"]:focus + label:before {
           box-shadow: 0 0 0 1px #ffffff;
 }
 
-input[type="checkbox"] + label:before {
+input[type="checkbox"] input[type="checkbox"] + label:before,
+input[type="radio"] input[type="checkbox"] + label:before {
   border-radius: 0.25em;
 }
 
-input[type="radio"] + label:before {
+input[type="checkbox"] input[type="radio"] + label:before,
+input[type="radio"] input[type="radio"] + label:before {
   border-radius: 100%;
 }
 
-::-webkit-input-placeholder {
+input[type="checkbox"] ::-webkit-input-placeholder,
+input[type="radio"] ::-webkit-input-placeholder {
   color: rgba(255, 255, 255, 0.35) !important;
   opacity: 1.0;
 }
 
-:-moz-placeholder {
+input[type="checkbox"] :-moz-placeholder,
+input[type="radio"] :-moz-placeholder {
   color: rgba(255, 255, 255, 0.35) !important;
   opacity: 1.0;
 }
 
-::-moz-placeholder {
+input[type="checkbox"] ::-moz-placeholder,
+input[type="radio"] ::-moz-placeholder {
   color: rgba(255, 255, 255, 0.35) !important;
   opacity: 1.0;
 }
 
-:-ms-input-placeholder {
+input[type="checkbox"] :-ms-input-placeholder,
+input[type="radio"] :-ms-input-placeholder {
   color: rgba(255, 255, 255, 0.35) !important;
   opacity: 1.0;
 }
