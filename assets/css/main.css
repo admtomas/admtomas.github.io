@@ -1,4 +1,4 @@
-@import url(c:\Users\Sir Tomas\Google Drive\PORTFOLIO UWE N REST\admtomas.github.io-1\assets\sass\fontawesome-all.min.css);
+@import url(c:\Users\admto\Google Drive\PORTFOLIO UWE N REST\admtomas.github.io-1\assets\sass\fontawesome-all.min.css);
 @import url(fontawesome-all.min.css);
 /*
 	Code tested by admtomas
@@ -419,7 +419,7 @@ hr.major {
 }
 
 mark {
-  color: red;
+  color: rgba(255, 255, 255, 0.8);
 }
 
 /* Row */

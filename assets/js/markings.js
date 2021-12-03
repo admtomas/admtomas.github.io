@@ -2,15 +2,28 @@
 
 
 //Array of words to be highlighted
-let selectWords = ["amanowicz", "ruby", "Tomasz"];
+let itSkillsToHighlight = ["python", "django", "react", "hooks", "testing library", "mongo", "node", "github", "express", "styled component", "visual studio code", "figma", "sass","jquery", "javascript"];
 
-//Get the document by id="highlight" inside <body> tag
-let instance = new Mark(document.querySelector("#highlight"));
+let softSkills = ["communicate", "lead", "train", "implement", "target", "motivate", "initiative", "schedule", "performance", "coach", "effective" ]
 
-        instance.mark(selectWords, {
-            //"element": "span",
+//Get the document by class="highlight" inside <section> tag ....
+let instanceOne = new Mark(document.querySelector(".highlight-one"));
+let instanceTwo = new Mark(document.querySelector(".highlight-two"));
+
+        instanceOne.mark(itSkillsToHighlight, {
             accuracy: {
-                value: "partially",
+                value: "complementary",
+                limiters: [".", ",", "!"]
+            },
+            separateWordSearch: false,
+            debug: true,
+            diacritics: true,
+        });
+
+
+        instanceTwo.mark(softSkills, {
+            accuracy: {
+                value: "complementary",
                 limiters: [".", ",", "!"]
             },
             separateWordSearch: false,
