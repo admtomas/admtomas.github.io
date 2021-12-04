@@ -1,3 +1,4 @@
+@import url(c:\Users\Sir Tomas\Google Drive\PORTFOLIO PC\admtomas.github.io\assets\sass\fontawesome-all.min.css);
 @import url(fontawesome-all.min.css);
 /*
 	Code tested by admtomas
@@ -3321,8 +3322,8 @@ body.is-preload .wrapper.fade > .inner {
 }
 
 .eighteen {
-  top: 65%;
-  left: 17%;
+  top: -46%;
+  left: 85%;
   -webkit-animation-delay: 1.9s;
           animation-delay: 1.9s;
 }
@@ -3335,22 +3336,22 @@ body.is-preload .wrapper.fade > .inner {
 }
 
 .twenty {
-  top: 71%;
-  left: 44%;
+  top: 51%;
+  left: 34%;
   -webkit-animation-delay: 2.0s;
           animation-delay: 2.0s;
 }
 
 .twenty-one {
-  top: 66%;
-  left: 14%;
+  top: -70%;
+  left: 34%;
   -webkit-animation-delay: 1.4s;
           animation-delay: 1.4s;
 }
 
 .twenty-two {
-  top: 77%;
-  left: 11%;
+  top: -50%;
+  left: 57%;
   -webkit-animation-delay: 2.4s;
           animation-delay: 2.4s;
 }
@@ -3371,13 +3372,13 @@ body.is-preload .wrapper.fade > .inner {
 
 .twenty-five {
   top: -15%;
-  left: 17%;
+  left: 10%;
   -webkit-animation-delay: 1.4s;
           animation-delay: 1.4s;
 }
 
 .twenty-six {
-  top: -27%;
+  top: -24%;
   left: 27%;
   -webkit-animation-delay: 1.1s;
           animation-delay: 1.1s;
@@ -3426,29 +3427,29 @@ body.is-preload .wrapper.fade > .inner {
 }
 
 .thirty-three {
-  top: 60%;
+  top: -30%;
   left: 77%;
   -webkit-animation-delay: 2.2s;
           animation-delay: 2.2s;
 }
 
 .thirty-four {
-  top: 50%;
+  top: 1%;
   left: 67%;
   -webkit-animation-delay: 2.9s;
           animation-delay: 2.9s;
 }
 
 .thirty-five {
-  top: 70%;
-  left: 57%;
+  top: -40%;
+  left: 67%;
   -webkit-animation-delay: 1.7s;
           animation-delay: 1.7s;
 }
 
 .thirty-six {
-  top: 90%;
-  left: 37%;
+  top: -40%;
+  left: 47%;
   -webkit-animation-delay: 1.9s;
           animation-delay: 1.9s;
 }
