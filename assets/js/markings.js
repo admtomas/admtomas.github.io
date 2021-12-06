@@ -2,7 +2,7 @@
 
 
 //Array of words to be highlighted
-let itSkillsToHighlight = ["python", "django", "react", "hooks", "testing library", "mongo", "node", "github", "express", "styled component", "visual studio code", "figma", "sass","jquery", "javascript"];
+let itSkillsToHighlight = ["python", "django", "react", "hooks", "testing library", "postman", "mongo", "node", "github", "express", "styled component", "visual studio code", "figma", "sass","jquery", "javascript"];
 
 let softSkills = ["communicate", "lead", "train", "implement", "target", "motivate", "initiative", "schedule", "performance", "coach", "effective" ]
 
