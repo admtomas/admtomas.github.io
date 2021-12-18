@@ -59,6 +59,7 @@ form {
     $gutter: (_size(element-margin) * 0.75);
     padding: $gutter 0 0 $gutter;
     margin: auto;
+    overflow: hidden;
     iframe {
         border: solid _size(thick-border) _palette(border);
     }
