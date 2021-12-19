@@ -62,6 +62,10 @@ form {
     overflow: hidden;
     iframe {
         border: solid _size(thick-border) _palette(border);
+        @include breakpoint ('<=small') {
+            width: 330px;
+            height: 230px;
+        }
     }
 }
 
