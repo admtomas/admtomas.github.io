@@ -6,6 +6,16 @@
 
 /* Icon */
 
+.arrow-color {
+    color: _palette(arrows);
+}
+
+#toggle {
+     :hover {
+        scale: 1.2;
+    }
+}
+
 .icon {
     @include icon;
     border-bottom: none;
