@@ -2,7 +2,7 @@
 
 
 //Array of words to be highlighted
-let itSkillsToHighlight = ["python", "django", "react", "hooks", "testing library", "postman", "mongo", "node", "github", "express", "styled component", "visual studio code", "figma", "sass","jquery", "javascript"];
+let iTSkillsToHighlight = ["python", "django", "react", "hooks", "testing library", "postman", "mongo", "node", "github", "express", "styled component", "visual studio code", "figma", "sass","jquery", "javascript", "computational", "thinking"];
 
 let softSkills = ["communicate", "lead", "train", "implement", "target", "motivate", "initiative", "schedule", "performance", "coach", "effective" ]
 
@@ -10,7 +10,7 @@ let softSkills = ["communicate", "lead", "train", "implement", "target", "motiva
 let instanceOne = new Mark(document.querySelector(".highlight-one"));
 let instanceTwo = new Mark(document.querySelector(".highlight-two"));
 
-        instanceOne.mark(itSkillsToHighlight, {
+        instanceOne.mark(iTSkillsToHighlight, {
             accuracy: {
                 value: "complementary",
                 limiters: [".", ",", "!"]
